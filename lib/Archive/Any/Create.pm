@@ -1,7 +1,7 @@
 package Archive::Any::Create;
 
 use strict;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Exception::Class 'Archive::Any::Create::Error';
 use UNIVERSAL::require;
@@ -116,7 +116,7 @@ create a zip file with the same contents.
 =item write_filehandle($fh, $format)
 
 Write an archive data stream into filehandle. C<$format> is either,
-L<tar>, L<tar.gz> or L<zip>.
+I<tar>, I<tar.gz> or I<zip>.
 
 =back
 
